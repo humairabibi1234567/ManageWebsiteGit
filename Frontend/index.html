@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive website ke liye -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AlamNass | Fashionista Modesta</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    >
+
+    <!-- jQuery Library -->
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP OFFER BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <p>
+        Get 10% Off Your First Order |
+        Use Code: <strong>ALAM10</strong>
+    </p>
+
+    <span>
+        <i class="fa-solid fa-truck"></i>
+        Free Shipping on Orders Over Rs. 5000
+    </span>
+
+</div>
+
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+
+        <div class="logo-icon">
+            <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <div>
+            <h2>ALAMNASS</h2>
+            <small>FASHIONISTA MODESTA</small>
+        </div>
+
+    </a>
+
+
+    <!-- Navigation -->
+    <nav class="nav-links" id="navLinks">
+
+        <a href="index.html" class="active">
+            Home
+        </a>
+
+        <a href="shop.html">
+            Shop
+        </a>
+
+        <!-- New Arrival added -->
+        <a href="new-arrivals.html">
+            New Arrivals
+        </a>
+
+        <a href="collections.html">
+            Collections
+        </a>
+
+        <a href="about.html">
+            About Us
+        </a>
+
+        <a href="blog.html">
+            Blog
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <!-- Right Icons -->
+    <div class="nav-icons">
+
+        <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+
+        <i class="fa-regular fa-user"></i>
+
+        <i class="fa-regular fa-heart"></i>
+
+        <div class="cart-icon">
+
+            <i class="fa-solid fa-bag-shopping"></i>
+
+            <span id="cartCount">0</span>
+
+        </div>
+
+        <!-- Mobile menu -->
+        <i
+            class="fa-solid fa-bars menu-btn"
+            id="menuBtn">
+        </i>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     SEARCH BOX
+===================================================== -->
+
+<div class="search-box" id="searchBox">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search dresses, tops, collections..."
+    >
+
+    <button id="searchClose">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+</div>
+
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+<section class="hero" id="home">
+
+    <div class="hero-content reveal">
+
+        <span class="eyebrow">
+            NEW SEASON
+        </span>
+
+        <h1>
+            Modest Style
+            <br>
+            <em>Made For You</em>
+        </h1>
+
+        <p>
+            Discover elegant women's fashion designed
+            for comfort, confidence and timeless beauty.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="new-arrivals.html" class="dark-btn">
+                Shop New Arrivals
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="collections.html" class="light-btn">
+                Explore Collections
+            </a>
+
+        </div>
+
+
+        <!-- Features -->
+
+        <div class="hero-features">
+
+            <div>
+                <i class="fa-solid fa-gem"></i>
+
+                <span>
+                    Premium
+                    <br>
+                    Quality
+                </span>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+
+                <span>
+                    Modest &
+                    <br>
+                    Timeless
+                </span>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-heart"></i>
+
+                <span>
+                    Made For
+                    <br>
+                    Modern Women
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Hero image -->
+
+    <div class="hero-image reveal">
+
+        <img
+            src="https://media.istockphoto.com/id/1400377038/photo/explore-summer-getaway.jpg?s=1024x1024&w=is&k=20&c=wgye9lvP_CZKG91Fqb2-tYe9z1RlWOjlEABmWOaYhAY=" alt="AlamNass Fashion">
+</div>
+            
+
+        <!-- Floating collection card -->
+
+        <div class="collection-card">
+
+            <span>
+                ALAMNASS
+            </span>
+
+            <h3>
+                Modest
+                <br>
+                Collection
+            </h3>
+
+            <p>
+                Elegant styles.
+                Confident you.
+            </p>
+
+            <a href="collections.html">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SHOP BY CATEGORY
+===================================================== -->
+
+<section class="categories section">
+
+    <div class="section-heading reveal">
+
+        <span>
+            SHOP BY CATEGORY
+        </span>
+
+        <h2>
+            Find Your Perfect Style
+        </h2>
+
+    </div>
+
+
+    <div class="category-container">
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHysk-iD7ZHREB3OI2Ae3WuaOD1HRgM7ds_3hMY1vJ_Q&s=10"
+                    alt="Dresses"
+                >
+
+            </div>
+
+            <h3>
+                Dresses
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image"> <img
+                    src="images/category2.jpg"
+                    alt="Tops"
+                >
+
+            </div>
+
+            <h3>
+                Tops & Blouses
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="images/category3.jpg"
+                    alt="Modest Wear"
+                >
+
+            </div>
+
+            <h3>
+                Modest Wear
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="images/category1.jpg"
+                    alt="Co Ord Sets"
+                >
+
+            </div>
+
+            <h3>
+                Co-ord Sets
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="images/category2.jpg"
+                    alt="Party Wear"
+                >
+
+            </div>
+
+            <h3>
+                Party Wear
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+
+
+        <a href="shop.html" class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="images/category3.jpg"
+                    alt="Casual Wear"
+                >
+
+            </div>
+
+            <h3>
+                Casual Wear
+                <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BESTSELLERS
+===================================================== -->
+
+<section class="products section">
+
+    <div class="section-heading reveal">
+
+        <span>
+            BESTSELLERS
+        </span>
+
+        <h2>
+            Our Most Loved Styles
+        </h2>
+
+        <p>
+            Customer favorites you'll fall in love with.
+        </p>
+
+    </div>
+
+
+    <div class="product-container">
+
+
+        <!-- Product 1 -->
+
+        <div class="product-card reveal">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    New
+                </span>
+
+                <button class="heart-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <img
+                    src="images/product1.jpg"
+                    alt="Floral Modest Dress"
+                >
+
+                <!-- Hover button -->
+
+                <button
+                    class="quick-view"
+                    data-product="Floral Modest Dress"
+                >
+                    Quick View
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    Floral Modest Dress
+                </h3><div class="rating">
+                    ★★★★★
+                    <span>(120)</span>
+                </div>
+
+                <strong>
+                    Rs. 8,999
+                </strong>
+
+                <button
+                    class="add-cart"
+                    data-name="Floral Modest Dress"
+                >
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Product 2 -->
+
+        <div class="product-card reveal">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    Best Seller
+                </span>
+
+                <button class="heart-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="images/product2.jpg"
+                    alt="Elegant Blouse"
+                >
+
+                <button
+                    class="quick-view"
+                    data-product="Elegant Blouse"
+                >
+                    Quick View
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    Elegant Blouse
+                </h3>
+
+                <div class="rating">
+                    ★★★★★
+                    <span>(256)</span>
+                </div>
+
+                <strong>
+                    Rs. 5,499
+                </strong>
+
+                <button
+                    class="add-cart"
+                    data-name="Elegant Blouse"
+                >
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Product 3 -->
+
+        <div class="product-card reveal">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    Trending
+                </span>
+
+                <button class="heart-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="images/product3.jpg"
+                    alt="Ribbed Knit Sweater"
+                >
+
+                <button
+                    class="quick-view"
+                    data-product="Ribbed Knit Sweater"
+                >
+                    Quick View
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    Ribbed Knit Sweater
+                </h3>
+
+                <div class="rating">
+                    ★★★★★
+                    <span>(104)</span>
+                </div>
+
+                <strong>
+                    Rs. 6,499
+                </strong>
+
+                <button
+                    class="add-cart"
+                    data-name="Ribbed Knit Sweater"
+                >
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Product 4 -->
+
+        <div class="product-card reveal">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    New
+                </span><button class="heart-btn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <img
+                    src="images/category1.jpg"
+                    alt="Elegant Co Ord Set"
+                >
+
+                <button
+                    class="quick-view"
+                    data-product="Elegant Co Ord Set"
+                >
+                    Quick View
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    Elegant Co-ord Set
+                </h3>
+
+                <div class="rating">
+                    ★★★★★
+                    <span>(225)</span>
+                </div>
+
+                <strong>
+                    Rs. 9,999
+                </strong>
+
+                <button
+                    class="add-cart"
+                    data-name="Elegant Co-ord Set"
+                >
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="center-btn">
+
+        <a href="shop.html" class="outline-dark-btn">
+            View All
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY CHOOSE US
+===================================================== -->
+
+<section class="why-us">
+
+    <div class="why-image reveal">
+
+        <img
+            src="images/lifestyle.jpg"
+            alt="AlamNass Lifestyle"
+        >
+
+    </div>
+
+
+    <div class="why-content reveal">
+
+        <span>
+            WHY CHOOSE ALAMNASS
+        </span>
+
+        <h2>
+            More Than Fashion,
+            <br>
+            <em>It's a Lifestyle</em>
+        </h2>
+
+        <p>
+            We create modern, high-quality modest clothing
+            designed to make you feel comfortable and confident.
+        </p>
+
+
+        <div class="why-features">
+
+            <div>
+                <i class="fa-solid fa-gem"></i>
+
+                <h4>Premium Quality</h4>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+
+                <h4>Modest Choices</h4>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <h4>Fast Shipping</h4>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-headset"></i>
+
+                <h4>Customer Support</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     STATS
+===================================================== -->
+
+<section class="stats">
+
+    <div>
+        <strong>5K+</strong>
+        <span>Happy Customers</span>
+    </div>
+
+    <div>
+        <strong>100+</strong>
+        <span>Trendy Styles</span>
+    </div>
+
+    <div>
+        <strong>10+</strong>
+        <span>Collections</span>
+    </div>
+
+    <div>
+        <strong>4.9/5</strong>
+        <span>Customer Rating</span>
+    </div>
+
+</section>
+
+
+
+<!-- =======================================…==
+     NEWSLETTER
+===================================================== -->
+
+<section class="newsletter section">
+
+    <div class="newsletter-content reveal">
+
+        <div>
+
+            <i class="fa-regular fa-envelope"></i>
+
+            <div>
+
+                <h2>
+                    Join the AlamNass Community
+                </h2>
+
+                <p>
+                    Be the first to know about new arrivals,
+                    exclusive offers and style inspiration.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <button type="submit">
+                Subscribe
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-brand">
+
+        <h2>ALAMNASS</h2>
+
+        <small>
+            FASHIONISTA MODESTA
+        </small>
+
+        <p>
+            Modern modest fashion designed
+            with confidence and elegance.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div>
+
+        <h3>Shop</h3>
+
+        <a href="new-arrivals.html">New Arrivals</a>
+        <a href="shop.html">Dresses</a>
+        <a href="shop.html">Tops</a>
+        <a href="shop.html">Party Wear</a>
+        <a href="shop.html">Casual Wear</a>
+
+    </div>
+
+
+    <div>
+
+        <h3>Customer Care</h3>
+
+        <a href="#">Track Order</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Returns</a>
+        <a href="#">Size Guide</a>
+        <a href="#">FAQ</a>
+
+    </div>
+
+
+    <div>
+
+        <h3>Company</h3>
+
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="#">Privacy Policy</a>
+
+    </div>
+
+
+    <div>
+
+        <h3>Secure Payment</h3>
+
+        <p>
+            <i class="fa-solid fa-shield-halved"></i>
+            100% Secure Payment
+        </p>
+
+    </div>
+
+</footer>
+
+
+<div class="copyright">
+
+    © 2026 AlamNass. All Rights Reserved.
+
+</div>
+
+
+
+<!-- JavaScript -->
+<script src="app.js"></script>
+
+</body>
+</html>
