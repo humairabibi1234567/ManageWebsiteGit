@@ -1,946 +1,255 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-
-    <!-- Responsive website ke liye -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>AlamNass | Fashionista Modesta</title>
-
-    <!-- Main CSS -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HEALTHCARE HUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome Icons -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    >
-
-    <!-- jQuery Library -->
-    <script
-        src="https://code.jquery.com/jquery-3.7.1.min.js">
-    </script>
 
 </head>
+  <body>
+    <header class="text-center p-0 mb-0 ">
+<h1 class="assesment title"></h1>
+<h3> HEALTH CARE HUB</h3>
+</h1>
+ </header>
 
-
-<body>
-
-
-<!-- =====================================================
-     TOP OFFER BAR
-===================================================== -->
-
-<div class="top-bar">
-
-    <p>
-        Get 10% Off Your First Order |
-        Use Code: <strong>ALAM10</strong>
-    </p>
-
-    <span>
-        <i class="fa-solid fa-truck"></i>
-        Free Shipping on Orders Over Rs. 5000
-    </span>
-
-</div>
-
-
-
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-<header class="navbar">
-
-    <!-- Logo -->
-    <a href="index.html" class="logo">
-
-        <div class="logo-icon">
-            <i class="fa-solid fa-leaf"></i>
-        </div>
-
-        <div>
-            <h2>ALAMNASS</h2>
-            <small>FASHIONISTA MODESTA</small>
-        </div>
-
-    </a>
-
-
-    <!-- Navigation -->
-    <nav class="nav-links" id="navLinks">
-
-        <a href="index.html" class="active">
-            Home
-        </a>
-
-        <a href="shop.html">
-            Shop
-        </a>
-
-        <!-- New Arrival added -->
-        <a href="new-arrivals.html">
-            New Arrivals
-        </a>
-
-        <a href="collections.html">
-            Collections
-        </a>
-
-        <a href="about.html">
-            About Us
-        </a>
-
-        <a href="blog.html">
-            Blog
-        </a>
-
-        <a href="contact.html">
-            Contact
-        </a>
-
-    </nav>
-
-
-    <!-- Right Icons -->
-    <div class="nav-icons">
-
-        <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
-
-        <i class="fa-regular fa-user"></i>
-
-        <i class="fa-regular fa-heart"></i>
-
-        <div class="cart-icon">
-
-            <i class="fa-solid fa-bag-shopping"></i>
-
-            <span id="cartCount">0</span>
-
-        </div>
-
-        <!-- Mobile menu -->
-        <i
-            class="fa-solid fa-bars menu-btn"
-            id="menuBtn">
-        </i>
-
-    </div>
-
-</header>
-
-
-
-<!-- =====================================================
-     SEARCH BOX
-===================================================== -->
-
-<div class="search-box" id="searchBox">
-
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Search dresses, tops, collections..."
-    >
-
-    <button id="searchClose">
-        <i class="fa-solid fa-xmark"></i>
+    <!-----nav bar-->
+    <nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="/about.html">About us</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="healthinfo.html">Health info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="who.html">WHO</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
+
+
+<!-----curousal-->
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+  
+<!----imge 1-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="gallery images/jogging 2.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block fw-bold">
+        <h2> Take Care of Your Health</h2>
+        <h3> Learn simple and useful health and wellness information.</h3>
+        <a class="btn btn- bg-primary text-white" href="/about.html" role="button">About us</a>
+      <a class="btn btn- bg-primary text-white" href="/healthinfo.html" role="button">Learn More</a>
+    </div>
+    </div>
+
+<!----img 2-->
+    <div class="carousel-item">
+      <img src="gallery images/nutrition 2.jpg" class="d-block w-100" alt="nutrition">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Eat Healthy</h2>
+        <h3> our dietshould be first priority for your health .</h3>
+         <a class="btn btn-primary text-white" href="/about.html" role="button">About us</a>
+      <a class="btn btn-primary text-white" href="/healthinfo.html" role="button">Learn More</a>
+      </div>
+    </div>
+
+<!-----img 3-->
+    <div class="carousel-item">
+      <img src="gallery images/hydration 2.jpg" class="d-block w-100" alt="hydration">
+      <div class="carousel-caption d-none d-md-block">
+        <h2> Take Care Of Your Hydration</h2>
+        <h3> Water is important for everyday wellness.</h3>
+         <a class="btn btn-primary text-white" href="/about.html" role="button">About us</a>
+      <a class="btn btn-primary text-white" href="/healthinfo.html" role="button">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!---main content-->
+<div class="container-fluid">
+<div class="row g-4 p-4">
+    <main class="col-md-8">
+<div class="card sm fw-bold p-4 mb-4">
+     <h2> Welcome to HealthCare Hub</h2>
+ <p>HealthCare Hub is an educational website
+that provides basic information about
+health, wellness and healthy daily habits.</p>
+<p>Explore topics such as blood pressure,hydration, 
+    sleep, first aid and healthy lifestyle habits. </p>
+
+ <button id="healthBtn" class="btn btn-primary">
+    Explore Health Topics
+</button>
 </div>
 
 
 
-<!-- =====================================================
-     HERO SECTION
-===================================================== -->
-<section class="hero" id="home">
-
-    <div class="hero-content reveal">
-
-        <span class="eyebrow">
-            NEW SEASON
-        </span>
-
-        <h1>
-            Modest Style
-            <br>
-            <em>Made For You</em>
-        </h1>
-
-        <p>
-            Discover elegant women's fashion designed
-            for comfort, confidence and timeless beauty.
-        </p>
-
-
-        <div class="hero-buttons">
-
-            <a href="new-arrivals.html" class="dark-btn">
-                Shop New Arrivals
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
-
-            <a href="collections.html" class="light-btn">
-                Explore Collections
-            </a>
-
-        </div>
-
-
-        <!-- Features -->
-
-        <div class="hero-features">
-
-            <div>
-                <i class="fa-solid fa-gem"></i>
-
-                <span>
-                    Premium
-                    <br>
-                    Quality
-                </span>
-            </div>
-
-
-            <div>
-                <i class="fa-solid fa-leaf"></i>
-
-                <span>
-                    Modest &
-                    <br>
-                    Timeless
-                </span>
-            </div>
-
-
-            <div>
-                <i class="fa-solid fa-heart"></i>
-
-                <span>
-                    Made For
-                    <br>
-                    Modern Women
-                </span>
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- Hero image -->
-
-    <div class="hero-image reveal">
-
-        <img
-            src="https://media.istockphoto.com/id/1400377038/photo/explore-summer-getaway.jpg?s=1024x1024&w=is&k=20&c=wgye9lvP_CZKG91Fqb2-tYe9z1RlWOjlEABmWOaYhAY=" alt="AlamNass Fashion">
+ <!-- Four Health Cards -->
+  <!---card 1-->
+ <section id="topics">
+ <h3 class="section-title">Basic Health Topics </h3>
+<div class="row g-4">
+ <div class="col-md-6">
+    <div class="card health-card">
+  <img src="gallery images/hydration 2.jpg" class="card-img-top" alt="Blood Pressure"><div class="card-body">
+ <h3 class="card-title">Hydration</h3>
+<p class="card-text"> Learn why hydration is an important part of our everyday wellness
+</p>
+ <a href="healthinformation.html" class="btn btn-primary"> Read More</a>
 </div>
-            
+</div>
+ </div>
+<!---card 2-->
+ <div class="col-md-6">
+    <div class="card health-card">
+  <img src="gallery images/first aid 3.jpg"class="card-img-top" alt="Blood Pressure"><div class="card-body">
+ <h3 class="card-title"> First Aid</h3>
+<p class="card-text">
+  Learn general information about basic first aid
+  and emergency preparedness.
+</p>
+ <a href="healthinformation.html" class="btn btn-primary"> Read More</a></div>
+</div>
+ </div>
 
-        <!-- Floating collection card -->
+<!---card 3-->
+<div class="col-md-6">
+    <div class="card health-card">
+  <img src="gallery images/blood p.jpg"class="card-img-top" alt="Blood Pressure"><div class="card-body">
+ <h3 class="card-title">  Blood Pressure</h3>
+<p class="card-text">Learn the basic concept of blood pressure and why it is important to understand.
+</p>
+ <a href="healthinformation.html" class="btn btn-primary"> Read More</a></div>
+</div>
+ </div>
 
-        <div class="collection-card">
+     <!---card 4-->
+<div class="col-md-6">
+    <div class="card health-card">
+  <img src="gallery images/healthy sleep.jpg" class="card-img-top" alt="healthy sleep"><div class="card-body">
+ <h3 class="card-title">Healthy Sleep</h3>
+<p class="card-text"> Learn simple habits  for better sleep and daily wellbeing.
+</p>
+ <a href="healthinformation.html" class="btn btn-primary"> Read More</a></div>
+</div>
+ </div>
+  
+ </main>
 
-            <span>
-                ALAMNASS
-            </span>
 
-            <h3>
-                Modest
-                <br>
-                Collection
-            </h3>
 
-            <p>
-                Elegant styles.
-                Confident you.
-            </p>
-
-            <a href="collections.html">
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
-
-        </div>
-
+<!-----side bar-->
+<aside class="col-lg-4">
+  <h3>Stay healthy</h3>
+  <div class="row g-2">
+  <div class="col-6">
+  <div class="p-4 border bg-info text-center sidebar-box">
+        💧 Stay Hydrated
+  </div>
+ </div>
+       
+ <div class="col-6">
+  <div class="p-4 border bg-info text-center sidebar-box">
+    🥗 Eat Healthy
+     </div>
     </div>
 
-</section>
-
-
-
-<!-- =====================================================
-     SHOP BY CATEGORY
-===================================================== -->
-
-<section class="categories section">
-
-    <div class="section-heading reveal">
-
-        <span>
-            SHOP BY CATEGORY
-        </span>
-
-        <h2>
-            Find Your Perfect Style
-        </h2>
-
+ <div class="col-6">
+ <div class="p-4 border bg-info text-center sidebar-box">
+    😴Sleep Well
+      </div>
     </div>
-
-
-    <div class="category-container">
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image">
-
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHysk-iD7ZHREB3OI2Ae3WuaOD1HRgM7ds_3hMY1vJ_Q&s=10"
-                    alt="Dresses"
-                >
-
-            </div>
-
-            <h3>
-                Dresses
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image"> <img
-                    src="images/category2.jpg"
-                    alt="Tops"
-                >
-
-            </div>
-
-            <h3>
-                Tops & Blouses
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image">
-
-                <img
-                    src="images/category3.jpg"
-                    alt="Modest Wear"
-                >
-
-            </div>
-
-            <h3>
-                Modest Wear
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image">
-
-                <img
-                    src="images/category1.jpg"
-                    alt="Co Ord Sets"
-                >
-
-            </div>
-
-            <h3>
-                Co-ord Sets
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image">
-
-                <img
-                    src="images/category2.jpg"
-                    alt="Party Wear"
-                >
-
-            </div>
-
-            <h3>
-                Party Wear
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
-
-
-        <a href="shop.html" class="category-card reveal">
-
-            <div class="category-image">
-
-                <img
-                    src="images/category3.jpg"
-                    alt="Casual Wear"
-                >
-
-            </div>
-
-            <h3>
-                Casual Wear
-                <i class="fa-solid fa-arrow-right"></i>
-            </h3>
-
-        </a>
-
+     <div class="col-6">
+   <div class="p-4 border bg-info text-center sidebar-box">
+    ❤️ Check Bp
     </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     BESTSELLERS
-===================================================== -->
-
-<section class="products section">
-
-    <div class="section-heading reveal">
-
-        <span>
-            BESTSELLERS
-        </span>
-
-        <h2>
-            Our Most Loved Styles
-        </h2>
-
-        <p>
-            Customer favorites you'll fall in love with.
-        </p>
-
     </div>
-
-
-    <div class="product-container">
-
-
-        <!-- Product 1 -->
-
-        <div class="product-card reveal">
-
-            <div class="product-image">
-
-                <span class="badge">
-                    New
-                </span>
-
-                <button class="heart-btn">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-
-                <img
-                    src="images/product1.jpg"
-                    alt="Floral Modest Dress"
-                >
-
-                <!-- Hover button -->
-
-                <button
-                    class="quick-view"
-                    data-product="Floral Modest Dress"
-                >
-                    Quick View
-                </button>
-
-            </div>
-
-
-            <div class="product-info">
-
-                <h3>
-                    Floral Modest Dress
-                </h3><div class="rating">
-                    ★★★★★
-                    <span>(120)</span>
-                </div>
-
-                <strong>
-                    Rs. 8,999
-                </strong>
-
-                <button
-                    class="add-cart"
-                    data-name="Floral Modest Dress"
-                >
-                    Add to Cart
-                </button>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- Product 2 -->
-
-        <div class="product-card reveal">
-
-            <div class="product-image">
-
-                <span class="badge">
-                    Best Seller
-                </span>
-
-                <button class="heart-btn">
-
-                    <i class="fa-regular fa-heart"></i>
-
-                </button>
-
-                <img
-                    src="images/product2.jpg"
-                    alt="Elegant Blouse"
-                >
-
-                <button
-                    class="quick-view"
-                    data-product="Elegant Blouse"
-                >
-                    Quick View
-                </button>
-
-            </div>
-
-
-            <div class="product-info">
-
-                <h3>
-                    Elegant Blouse
-                </h3>
-
-                <div class="rating">
-                    ★★★★★
-                    <span>(256)</span>
-                </div>
-
-                <strong>
-                    Rs. 5,499
-                </strong>
-
-                <button
-                    class="add-cart"
-                    data-name="Elegant Blouse"
-                >
-                    Add to Cart
-                </button>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- Product 3 -->
-
-        <div class="product-card reveal">
-
-            <div class="product-image">
-
-                <span class="badge">
-                    Trending
-                </span>
-
-                <button class="heart-btn">
-
-                    <i class="fa-regular fa-heart"></i>
-
-                </button>
-
-                <img
-                    src="images/product3.jpg"
-                    alt="Ribbed Knit Sweater"
-                >
-
-                <button
-                    class="quick-view"
-                    data-product="Ribbed Knit Sweater"
-                >
-                    Quick View
-                </button>
-
-            </div>
-
-
-            <div class="product-info">
-
-                <h3>
-                    Ribbed Knit Sweater
-                </h3>
-
-                <div class="rating">
-                    ★★★★★
-                    <span>(104)</span>
-                </div>
-
-                <strong>
-                    Rs. 6,499
-                </strong>
-
-                <button
-                    class="add-cart"
-                    data-name="Ribbed Knit Sweater"
-                >
-                    Add to Cart
-                </button>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- Product 4 -->
-
-        <div class="product-card reveal">
-
-            <div class="product-image">
-
-                <span class="badge">
-                    New
-                </span><button class="heart-btn">
-
-                    <i class="fa-regular fa-heart"></i>
-
-                </button>
-
-                <img
-                    src="images/category1.jpg"
-                    alt="Elegant Co Ord Set"
-                >
-
-                <button
-                    class="quick-view"
-                    data-product="Elegant Co Ord Set"
-                >
-                    Quick View
-                </button>
-
-            </div>
-
-
-            <div class="product-info">
-
-                <h3>
-                    Elegant Co-ord Set
-                </h3>
-
-                <div class="rating">
-                    ★★★★★
-                    <span>(225)</span>
-                </div>
-
-                <strong>
-                    Rs. 9,999
-                </strong>
-
-                <button
-                    class="add-cart"
-                    data-name="Elegant Co-ord Set"
-                >
-                    Add to Cart
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="center-btn">
-
-        <a href="shop.html" class="outline-dark-btn">
-            View All
-            <i class="fa-solid fa-arrow-right"></i>
-        </a>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     WHY CHOOSE US
-===================================================== -->
-
-<section class="why-us">
-
-    <div class="why-image reveal">
-
-        <img
-            src="images/lifestyle.jpg"
-            alt="AlamNass Lifestyle"
-        >
-
-    </div>
-
-
-    <div class="why-content reveal">
-
-        <span>
-            WHY CHOOSE ALAMNASS
-        </span>
-
-        <h2>
-            More Than Fashion,
-            <br>
-            <em>It's a Lifestyle</em>
-        </h2>
-
-        <p>
-            We create modern, high-quality modest clothing
-            designed to make you feel comfortable and confident.
-        </p>
-
-
-        <div class="why-features">
-
-            <div>
-                <i class="fa-solid fa-gem"></i>
-
-                <h4>Premium Quality</h4>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-leaf"></i>
-
-                <h4>Modest Choices</h4>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-truck-fast"></i>
-
-                <h4>Fast Shipping</h4>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-headset"></i>
-
-                <h4>Customer Support</h4>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     STATS
-===================================================== -->
-
-<section class="stats">
-
-    <div>
-        <strong>5K+</strong>
-        <span>Happy Customers</span>
-    </div>
-
-    <div>
-        <strong>100+</strong>
-        <span>Trendy Styles</span>
-    </div>
-
-    <div>
-        <strong>10+</strong>
-        <span>Collections</span>
-    </div>
-
-    <div>
-        <strong>4.9/5</strong>
-        <span>Customer Rating</span>
-    </div>
-
-</section>
-
-
-
-<!-- =======================================…==
-     NEWSLETTER
-===================================================== -->
-
-<section class="newsletter section">
-
-    <div class="newsletter-content reveal">
-
-        <div>
-
-            <i class="fa-regular fa-envelope"></i>
-
-            <div>
-
-                <h2>
-                    Join the AlamNass Community
-                </h2>
-
-                <p>
-                    Be the first to know about new arrivals,
-                    exclusive offers and style inspiration.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <form id="newsletterForm">
-
-            <input
-                type="email"
-                id="newsletterEmail"
-                placeholder="Enter your email address"
-                required
-            >
-
-            <button type="submit">
-                Subscribe
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer>
-
-    <div class="footer-brand">
-
-        <h2>ALAMNASS</h2>
-
-        <small>
-            FASHIONISTA MODESTA
-        </small>
-
-        <p>
-            Modern modest fashion designed
-            with confidence and elegance.
-        </p>
-
-        <div class="social-icons">
-
-            <a href="#">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-tiktok"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-pinterest"></i>
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <div>
-
-        <h3>Shop</h3>
-
-        <a href="new-arrivals.html">New Arrivals</a>
-        <a href="shop.html">Dresses</a>
-        <a href="shop.html">Tops</a>
-        <a href="shop.html">Party Wear</a>
-        <a href="shop.html">Casual Wear</a>
-
-    </div>
-
-
-    <div>
-
-        <h3>Customer Care</h3>
-
-        <a href="#">Track Order</a>
-        <a href="#">Shipping Policy</a>
-        <a href="#">Returns</a>
-        <a href="#">Size Guide</a>
-        <a href="#">FAQ</a>
-
-    </div>
-
-
-    <div>
-
-        <h3>Company</h3>
-
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-        <a href="blog.html">Blog</a>
-        <a href="#">Privacy Policy</a>
-
-    </div>
-
-
-    <div>
-
-        <h3>Secure Payment</h3>
-
-        <p>
-            <i class="fa-solid fa-shield-halved"></i>
-            100% Secure Payment
-        </p>
-
-    </div>
-
+      
+    <div class="col-6">
+    <div class="p-4 border bg-info text-center sidebar-box">
+   🩹Learn FirstAid
+ </div>
+  </div>
+        
+  <div class="col-6">
+    <div class="p-4 border bg-info text-center sidebar-box">
+    🏃 Stay Active
+ </div>
+   </div>
+  </div>
+
+
+
+
+  <!----quick links-->
+<div class="card shadow-sm p-3  bg-light m-4 flex-column"style="height:30%;">
+ <h2>Quick Links</h2>
+<ul>
+<li>
+<a href="about.html">About us </a>
+</li>
+
+ <li>
+ <a href="healthinfo.html"> Health Information </a>
+ </li>
+
+ <li>
+ <a href="contact.html">Contact</a>
+ </li>
+<li>
+ <a  href="https://www.who.int/" target="_blank">
+ World Health Organization </a>
+ </li>
+  </ul>
+</div>
+</aside>
+</div>
+
+ <!-- Footer -->
+  <div class="footer">
+<footer class="footer text-center py-3">
+<p> & copy; 2026 HealthCare Hub. All Rights Reserved. </p>
+<p> Basic Health & Wellness Information</p>
 </footer>
+  </div>
+
+                       
+ <!-- jQuery -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 
-<div class="copyright">
-
-    © 2026 AlamNass. All Rights Reserved.
-
-</div>
-
-
-
-<!-- JavaScript -->
-<script src="app.js"></script>
-
-</body>
-</html>
+ <!----bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  </body>
+</html>>
